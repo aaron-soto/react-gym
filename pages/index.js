@@ -224,43 +224,56 @@ const Index = () => {
 					<div className='row justify-content-center'>
 						<ol className='list-group list-group-numbered leaderboard-list'>
 							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='ms me-auto d-flex'>
+								<div className='w-25 d-flex'>
+									<h3>Place</h3>
+								</div>
+								<div className='ms mr-auto d-flex'>
 									<h3>Name</h3>
 								</div>
 								<h3 className=''>lbs Lost</h3>
 							</li>
 							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='ms me-auto d-flex'>
-									<h3>1.</h3>
-									<div className='fw-bold ml-3'>Johnny Bravo</div>
+								<div className='d-flex w-25'>
+									<h3 className=''>1.</h3>
+								</div>
+								<div className='ms mr-auto d-flex'>
+									<p className='fw-bold '>Johnny Bravo</p>
 								</div>
 								<div className=''>86.6 lbs</div>
 							</li>
 							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='ms-2 me-auto d-flex'>
+								<div className=' d-flex w-25'>
 									<h3>2.</h3>
-									<div className='fw-bold ml-3'>Jane Doe</div>
+								</div>
+								<div className='ms mr-auto d-flex'>
+									<p className='fw-bold'>Jane Doe</p>
 								</div>
 								<div className=''>64.4 lbs</div>
 							</li>
 							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='ms-2 me-auto d-flex'>
+								<div className='d-flex w-25'>
 									<h3>3.</h3>
-									<div className='fw-bold ml-3'>John Doe</div>
+								</div>
+								<div className='ms mr-auto d-flex'>
+									<p className='fw-bold'>John Doe</p>
 								</div>
 								<div className=''>35.8 lbs</div>
 							</li>
 							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='ms-2 me-auto d-flex'>
+								<div className='d-flex w-25'>
 									<h3>4.</h3>
-									<div className='fw-bold ml-3'>Patrick Starr</div>
+								</div>
+								<div className='ms mr-auto d-flex'>
+									<p className='fw-bold'>Patrick Starr</p>
 								</div>
 								<div className=''>14.4 lbs</div>
 							</li>
 							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='ms-2 me-auto d-flex'>
+								<div className='d-flex w-25'>
 									<h3>5.</h3>
-									<div className='fw-bold ml-3'>Timmy Turner</div>
+								</div>
+								<div className='ms mr-auto d-flex'>
+									<p className='fw-bold'>Timmy Turner</p>
 								</div>
 								<div className=''>10.2 lbs</div>
 							</li>
