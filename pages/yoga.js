@@ -266,11 +266,11 @@ const ProjectDetails = () => {
 							</div>
 							<div className='portfolio-content'>
 								<h3 className='title'>
-									<Link href='/project-details'>
+									<Link href='/yoga'>
 										<a className='text-underline'>Crossfit</a>
 									</Link>
 								</h3>
-								<Link href='/project-details'>
+								<Link href='/yoga'>
 									<a className='cat-btn'>Crossfit</a>
 								</Link>
 							</div>
@@ -284,11 +284,11 @@ const ProjectDetails = () => {
 							</div>
 							<div className='portfolio-content'>
 								<h3 className='title'>
-									<Link href='/project-details'>
+									<Link href='/yoga'>
 										<a className='text-underline'>Spin</a>
 									</Link>
 								</h3>
-								<Link href='/project-details'>
+								<Link href='/yoga'>
 									<a className='cat-btn'>Spin</a>
 								</Link>
 							</div>
@@ -302,11 +302,11 @@ const ProjectDetails = () => {
 							</div>
 							<div className='portfolio-content'>
 								<h3 className='title'>
-									<Link href='/project-details'>
+									<Link href='/yoga'>
 										<a className='text-underline'>Yoga</a>
 									</Link>
 								</h3>
-								<Link href='/project-details'>
+								<Link href='/yoga'>
 									<a className='cat-btn'>Yoga</a>
 								</Link>
 							</div>
@@ -320,11 +320,11 @@ const ProjectDetails = () => {
 							</div>
 							<div className='portfolio-content'>
 								<h3 className='title'>
-									<Link href='/project-details'>
+									<Link href='/yoga'>
 										<a className='text-underline'>PowerFit</a>
 									</Link>
 								</h3>
-								<Link href='/project-details'>
+								<Link href='/yoga'>
 									<a className='cat-btn'>Crossfit</a>
 								</Link>
 							</div>
