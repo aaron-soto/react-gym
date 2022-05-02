@@ -8151,4 +8151,5 @@ textarea.form_control {
 .leaderboard-list {
 	width: 100%;
 	margin: 0 1rem;
+	max-width: 600px;
 }
