@@ -81,7 +81,7 @@ const Header = () => {
 									</a>
 								</Link>
 							</div>
-							<div className='nav-menu'>
+							<div className='nav-menu ms-auto'>
 								{/* Navbar Close */}
 								<div className='navbar-close'>
 									<i className='far fa-times' />

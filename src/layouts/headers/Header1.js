@@ -87,7 +87,7 @@ const Header1 = () => {
 									</a>
 								</Link>
 							</div>
-							<div className='nav-menu'>
+							<div className='nav-menu ml-auto'>
 								{/* Navbar Close */}
 								<div className='navbar-close'>
 									<i className='far fa-times' />
