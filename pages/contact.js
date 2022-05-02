@@ -44,17 +44,6 @@ const Contact = () => {
 									<div className='col-lg-6'>
 										<div className='information-item mb-60'>
 											<div className='icon'>
-												<i className='flaticon-map' />
-											</div>
-											<div className='text'>
-												<h5>San Francisco</h5>
-												<p>720 Main Street, B - Block, Floor, San Francisco</p>
-											</div>
-										</div>
-									</div>
-									<div className='col-lg-6'>
-										<div className='information-item mb-60'>
-											<div className='icon'>
 												<i className='flaticon-email' />
 											</div>
 											<div className='text'>
@@ -65,7 +54,9 @@ const Contact = () => {
 													</a>
 												</p>
 												<p>
-													<a href='www.infor.net'>www.infor.net</a>
+													<a href='https://www.powerhousefitnessaz.com/'>
+														https://www.powerhousefitnessaz.com/
+													</a>
 												</p>
 											</div>
 										</div>
