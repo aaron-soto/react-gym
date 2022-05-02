@@ -1,6 +1,14 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import { About, Blog, Cases, Home, Pages, Classes } from './headers/Menus';
+import {
+	About,
+	Blog,
+	Cases,
+	Home,
+	Pages,
+	Classes,
+	Features,
+} from './headers/Menus';
 
 const MobileHeader = ({ logo, className, headerClass }) => {
 	const [toggle, setToggle] = useState(false);
@@ -70,6 +78,18 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 									<span
 										className='dd-trigger'
 										onClick={() => activeMenuSet('Classes')}
+									>
+										<i className='far fa-angle-down' />
+									</span>
+								</li>
+								<li className='menu-item has-children'>
+									<a href='#'>Features</a>
+									<ul className='sub-menu' style={activeLi('Features')}>
+										<Features />
+									</ul>
+									<span
+										className='dd-trigger'
+										onClick={() => activeMenuSet('Features')}
 									>
 										<i className='far fa-angle-down' />
 									</span>

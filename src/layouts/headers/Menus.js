@@ -49,6 +49,19 @@ export const Classes = () => (
 		</li>
 	</Fragment>
 );
+export const Features = () => (
+	<Fragment>
+		<li>
+			<Link href='/yoga'>Tanning</Link>
+		</li>
+		<li>
+			<Link href='/powerfit'>Personal Coaching</Link>
+		</li>
+		<li>
+			<Link href='/spin'>Competition Prep</Link>
+		</li>
+	</Fragment>
+);
 export const Cases = () => (
 	<Fragment>
 		<li>

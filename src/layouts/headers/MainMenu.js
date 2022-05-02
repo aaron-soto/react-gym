@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { About, Blog, Cases, Home, Pages, Classes } from './Menus';
+import { About, Blog, Cases, Home, Pages, Classes, Features } from './Menus';
 
 const MainMenu = ({ search, setShow }) => {
 	return (
@@ -19,6 +19,12 @@ const MainMenu = ({ search, setShow }) => {
 					<a href='#'>Classes</a>
 					<ul className='sub-menu'>
 						<Classes />
+					</ul>
+				</li>
+				<li className='menu-item has-children'>
+					<a href='#'>Features</a>
+					<ul className='sub-menu'>
+						<Features />
 					</ul>
 				</li>
 				<li className='menu-item'>

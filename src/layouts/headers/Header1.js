@@ -75,7 +75,7 @@ const Header1 = () => {
 				</div>
 				{/* header Navigation */}
 				<div className='header-navigation'>
-					<div className='container-fluid'>
+					<div className='container'>
 						<div className='primary-menu'>
 							<div className='site-branding'>
 								<Link href='/'>
