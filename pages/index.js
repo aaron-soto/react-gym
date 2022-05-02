@@ -408,7 +408,7 @@ const Index = () => {
 						<div className='col-lg-9'>
 							<div className='cta-content mb-30 wow fadeInLeft'>
 								<h3 className='text-underline'>
-									Don't know where to start your fitness journey? Let us help!
+									Dont know where to start your fitness journey? Let us help!
 								</h3>
 							</div>
 						</div>
