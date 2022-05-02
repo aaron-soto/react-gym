@@ -60,7 +60,7 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 						<nav className='main-menu'>
 							<ul>
 								<li className='menu-item'>
-									<a href='#'>Home</a>
+									<Link href='/'>Home</Link>
 								</li>
 								<li className='menu-item has-children'>
 									<a href='#'>Classes</a>
@@ -75,7 +75,7 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 									</span>
 								</li>
 								<li className='menu-item'>
-									<a href='#'>Membership</a>
+									<Link href='/pricing'>Membership</Link>
 								</li>
 								<li className='menu-item'>
 									<Link href='/contact'>Contact</Link>
