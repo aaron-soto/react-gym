@@ -82,7 +82,7 @@ const Index = () => {
 						</div>
 					</div>
 					<div className='row table-responsive-md mx-0'>
-						<table class='table table-bordered bg-light'>
+						<table className='table table-bordered bg-light'>
 							<thead>
 								<tr>
 									<th className='text-center align-middle' scope='col'></th>
