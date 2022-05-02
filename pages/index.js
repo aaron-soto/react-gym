@@ -206,6 +206,78 @@ const Index = () => {
 			</div>
 			{/*====== End Schedule Section ======*/}
 
+			{/*====== Start Leaderboard Section ======*/}
+			<section className='mb-250'>
+				<div className='container'>
+					<div className='row justify-content-center'>
+						<div className='col-lg-6'>
+							<div className='section-title text-center mb-45 wow fadeInUp'>
+								<span className='sub-title red-dark text-underline'>
+									Leaderboards
+								</span>
+								<h2 className='text-uppercase'>
+									Some of the hardest working powerhouses
+								</h2>
+							</div>
+						</div>
+					</div>
+					<div className='row justify-content-center'>
+						<ol className='list-group list-group-numbered leaderboard-list'>
+							<li className='list-group-item d-flex justify-content-between align-items-start'>
+								<div className='ms me-auto d-flex'>
+									<h3>Name</h3>
+								</div>
+								<h3 className=''>lbs Lost</h3>
+							</li>
+							<li className='list-group-item d-flex justify-content-between align-items-start'>
+								<div className='ms me-auto d-flex'>
+									<h3>1.</h3>
+									<div className='fw-bold ml-3'>Johnny Bravo</div>
+								</div>
+								<div className=''>86.6 lbs</div>
+							</li>
+							<li className='list-group-item d-flex justify-content-between align-items-start'>
+								<div className='ms-2 me-auto d-flex'>
+									<h3>2.</h3>
+									<div className='fw-bold ml-3'>Jane Doe</div>
+								</div>
+								<div className=''>64.4 lbs</div>
+							</li>
+							<li className='list-group-item d-flex justify-content-between align-items-start'>
+								<div className='ms-2 me-auto d-flex'>
+									<h3>3.</h3>
+									<div className='fw-bold ml-3'>John Doe</div>
+								</div>
+								<div className=''>35.8 lbs</div>
+							</li>
+							<li className='list-group-item d-flex justify-content-between align-items-start'>
+								<div className='ms-2 me-auto d-flex'>
+									<h3>4.</h3>
+									<div className='fw-bold ml-3'>Patrick Starr</div>
+								</div>
+								<div className=''>14.4 lbs</div>
+							</li>
+							<li className='list-group-item d-flex justify-content-between align-items-start'>
+								<div className='ms-2 me-auto d-flex'>
+									<h3>5.</h3>
+									<div className='fw-bold ml-3'>Timmy Turner</div>
+								</div>
+								<div className=''>10.2 lbs</div>
+							</li>
+							<li className='list-group-item d-flex justify-content-between align-items-start'>
+								<a
+									className='text-center mx-auto w-100 h-100 text-danger'
+									href='#'
+								>
+									View full leaderboard
+								</a>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+			{/*====== End Leaderboard Section ======*/}
+
 			{/*====== Start Features Section ======*/}
 			<section className='fancy-features'>
 				<div className='continer-fluid p-0'>

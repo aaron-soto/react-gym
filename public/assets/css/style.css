@@ -8147,3 +8147,8 @@ textarea.form_control {
 /*---=========================
     End Footer css 
 =========================---*/
+
+.leaderboard-list {
+	width: 100%;
+	margin: 0 1rem;
+}
