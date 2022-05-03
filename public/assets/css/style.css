@@ -2081,7 +2081,7 @@ button {
 }
 .service-style-three .service-arrows {
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 }
 .service-style-three .service-arrows .slick-arrow {
 	display: flex;
@@ -8160,4 +8160,8 @@ textarea.form_control {
 .class-table > tbody > tr > .class-cell:hover:not(.empty) {
 	background-color: #f1c7c8;
 	cursor: pointer;
+}
+
+.header-right-nav > ul > .user-icon > a > .icon {
+	margin-left: 1rem;
 }

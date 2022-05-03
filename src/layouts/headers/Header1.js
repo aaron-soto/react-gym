@@ -48,23 +48,27 @@ const Header1 = () => {
 											<span className='title'>Follow Us</span>
 										</li>
 										<li>
-											<a href='#'>
+											<a
+												target='_blank'
+												href='https://www.facebook.com/247fitnesscasagrande/'
+											>
 												<i className='fab fa-facebook-f' />
 											</a>
 										</li>
 										<li>
-											<a href='#'>
+											<a
+												target='_blank'
+												href='https://twitter.com/PowerHouseFitn4'
+											>
 												<i className='fab fa-twitter' />
 											</a>
 										</li>
 										<li>
-											<a href='#'>
-												<i className='fab fa-linkedin' />
-											</a>
-										</li>
-										<li>
-											<a href='#'>
-												<i className='fab fa-youtube' />
+											<a
+												target='_blank'
+												href='https://www.instagram.com/powerhousefitnessaz/'
+											>
+												<i className='fab fa-instagram' />
 											</a>
 										</li>
 									</ul>
@@ -78,13 +82,11 @@ const Header1 = () => {
 					<div className='container'>
 						<div className='primary-menu'>
 							<div className='site-branding'>
-								<Link href='/'>
-									<a className='brand-logo'>
-										<img
-											src='assets/images/ph_logos/power-house-fitness-logo.svg'
-											alt='Site Logo'
-										/>
-									</a>
+								<Link href='/' className='brand-logo'>
+									<img
+										src='assets/images/ph_logos/power-house-fitness-logo.svg'
+										alt='Site Logo'
+									/>
 								</Link>
 							</div>
 							<div className='nav-menu ml-auto'>
@@ -117,21 +119,24 @@ const Header1 = () => {
 							</div>
 							<div className='header-right-nav'>
 								<ul>
-									{/* <li className='cart-item'>
+									{/* <li className='user-icon'>
 										<a href='#'>
-											<i className='fas fa-shopping-basket' />
+											<i className='fas fa-user' />
+											<span className='icon'>
+												<span>Login/ Sign up</span>
+											</span>
 										</a>
-									</li>
-									<li className='lang-dropdown'>
+									</li> */}
+									{/* <li className='lang-dropdown'>
 										<select className='wide'>
 											<option value={1}>English</option>
 											<option value={2}>Spanish</option>
 										</select>
 									</li> */}
 									<li className='nav-button'>
-										<a href='#' className='main-btn'>
-											Get Free Trial
-										</a>
+										<Link href='/trial'>
+											<a className='main-btn'>Get Free Trial</a>
+										</Link>
 									</li>
 									<li className='navbar-toggle-btn'>
 										<div className='navbar-toggler'>

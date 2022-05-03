@@ -153,7 +153,7 @@ const Footer = () => {
 								</p>
 							</div>
 						</div>
-						<div className='col-md-6'>
+						<div className='col-md-6 pr-5'>
 							<ul className='social-link float-md-right float-sm-none'>
 								<li>
 									<a href='#'>
