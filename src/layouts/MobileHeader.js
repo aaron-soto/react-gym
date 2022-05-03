@@ -66,7 +66,7 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 						</div>
 						{/* Main Menu */}
 						<nav className='main-menu'>
-							<ul>
+							<ul className=''>
 								<li className='menu-item'>
 									<Link href='/'>Home</Link>
 								</li>
@@ -106,6 +106,12 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 									</a>
 								</li>
 							</ul>
+							<div
+								className='menu-item nav-button text-light red-dark-bg trial-btn'
+								style={{ marginTop: '100px', height: '45px' }}
+							>
+								<Link href='/trial'>Get Free Trial</Link>
+							</div>
 						</nav>
 					</div>
 					<div className='header-right-nav'>

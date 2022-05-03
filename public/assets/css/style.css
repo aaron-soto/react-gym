@@ -8165,3 +8165,15 @@ textarea.form_control {
 .header-right-nav > ul > .user-icon > a > .icon {
 	margin-left: 1rem;
 }
+
+.trial-btn {
+	width: 90%;
+	margin: 1rem auto;
+}
+.trial-btn > a {
+	height: 100%;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
