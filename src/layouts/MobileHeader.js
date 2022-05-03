@@ -30,7 +30,7 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 						<Link href='/' className='brand-logo'>
 							<Image
 								width='100%'
-								height='100%'
+								height='45px'
 								src='/assets/images/ph_logos/power-house-fitness-logo.svg'
 								alt='Site Logo'
 							/>
