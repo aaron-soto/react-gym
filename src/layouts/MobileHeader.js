@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import {
 	About,
@@ -26,17 +27,13 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 			<div className='container-fluid'>
 				<div className='primary-menu'>
 					<div className='site-branding'>
-						<Link href='/'>
-							<a className='brand-logo'>
-								<img
-									src={`assets/images/ph_logos/power-house-fitness-logo.svg`}
-									alt='Site Logo'
-								/>
-								{/* <img
-									src={`assets/images/logo/logo-${logo ? logo : 5}.png`}
-									alt='Site Logo'
-								/> */}
-							</a>
+						<Link href='/' className='brand-logo'>
+							<Image
+								width='100%'
+								height='100%'
+								src='/assets/images/ph_logos/power-house-fitness-logo.svg'
+								alt='Site Logo'
+							/>
 						</Link>
 					</div>
 					<div className={`nav-menu ${toggle ? 'menu-on' : ''}`}>

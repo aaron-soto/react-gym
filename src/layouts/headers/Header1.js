@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import React, { Fragment, useState } from 'react';
 import SearchModal from '../../components/SearchModal';
 import MobileHeader from '../MobileHeader';
@@ -83,8 +84,10 @@ const Header1 = () => {
 						<div className='primary-menu'>
 							<div className='site-branding'>
 								<Link href='/' className='brand-logo'>
-									<img
-										src='assets/images/ph_logos/power-house-fitness-logo.svg'
+									<Image
+										width='100%'
+										height='100%'
+										src='/assets/images/ph_logos/power-house-fitness-logo.svg'
 										alt='Site Logo'
 									/>
 								</Link>

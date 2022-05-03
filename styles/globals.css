@@ -45,7 +45,7 @@ html {
 }
 
 .page-pagination ul li.active a {
-	background-color: var(--blue-light);
+	background-color: var(--red-dark);
 	color: #fff;
 }
 
@@ -172,7 +172,7 @@ html {
 	height: 15px !important;
 	width: 5px !important;
 	border: none !important;
-	background: #43baff;
+	background: var(--red-dark);
 	outline: none;
 	margin-left: 0;
 	border: none;
@@ -181,7 +181,7 @@ html {
 }
 
 .noUi-connect {
-	background: #43baff !important;
+	background: var(--red-dark) !important;
 }
 .noUi-handle:before,
 .noUi-handle:after {

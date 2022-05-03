@@ -30,6 +30,9 @@ const MainMenu = ({ search, setShow }) => {
 				<li className='menu-item'>
 					<Link href='/pricing'>Memberships</Link>
 				</li>
+				<li className='menu-item'>
+					<Link href='/shop'>Shop</Link>
+				</li>
 				{/* <li className='menu-item has-children'>
 					<a href='#'>Blog</a>
 					<ul className='sub-menu'>

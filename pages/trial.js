@@ -45,7 +45,7 @@ const Trial = () => {
 															type='text'
 															className='form_control'
 															placeholder='Last Name'
-															name='phone'
+															name='lastName'
 															required=''
 														/>
 													</div>
@@ -57,6 +57,17 @@ const Trial = () => {
 															className='form_control'
 															placeholder='Email Address'
 															name='email'
+															required=''
+														/>
+													</div>
+												</div>
+												<div className='col-lg-3 col-md-6 col-sm-12'>
+													<div className='form_group'>
+														<input
+															type='text'
+															className='form_control'
+															placeholder='Phone Number'
+															name='phoneNumber'
 															required=''
 														/>
 													</div>

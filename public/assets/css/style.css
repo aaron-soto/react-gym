@@ -6000,7 +6000,7 @@ ul.ratings {
 	border: none;
 }
 .product-sidebar-widget .widget.search-widget form .form_control {
-	background-color: #141d38;
+	background-color: var(--red-dark);
 	height: 60px;
 	border-radius: 5px;
 	color: #fff;
@@ -6254,6 +6254,49 @@ ul.ratings {
 	border-bottom: 1px solid #efefef;
 	margin-bottom: 15px;
 }
+.product-details-wrapper .product-info .size-filter-wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	padding: 15px 0 20px;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	margin-bottom: 15px;
+}
+.product-details-wrapper .product-info .size-filter-wrap .product-size {
+	margin: 0 1rem;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+}
+.product-details-wrapper .product-info .size-filter-wrap .product-size label {
+	cursor: pointer;
+	margin: 0;
+	font-weight: 600;
+}
+.product-details-wrapper
+	.product-info
+	.size-filter-wrap
+	.product-size
+	label.out {
+	color: #dcdcdc;
+	cursor: default;
+	pointer-events: none;
+}
+.product-details-wrapper .product-info .size-filter-wrap .product-size input {
+	display: none;
+}
+.product-details-wrapper
+	.product-info
+	.size-filter-wrap
+	.product-size
+	input:checked
+	+ label {
+	color: var(--red-dark) !important;
+}
 .product-details-wrapper .product-info .color-filter-wrap h5 {
 	margin-right: 10px;
 	line-height: 1;
@@ -6331,6 +6374,13 @@ ul.ratings {
 	.single-color.pink
 	label:before {
 	background-color: #ff31fd;
+}
+.product-details-wrapper
+	.product-info
+	.color-filter-wrap
+	.single-color.red
+	label:before {
+	background-color: var(--red-dark);
 }
 .product-details-wrapper
 	.product-info
@@ -6451,7 +6501,7 @@ ul.ratings {
 	border-radius: 5px;
 }
 .product-details-section .discription-area .discription-tabs .nav-link.active {
-	background-color: var(--blue-light);
+	background-color: var(--red-dark);
 	color: #fff;
 }
 .product-details-section .discription-area .content-box h3 {
@@ -6464,10 +6514,17 @@ ul.ratings {
 	margin-bottom: 30px;
 }
 .products-review-area .review-area .review-list .review img {
-	max-width: 80px;
+	max-width: 80px !important;
 	flex: 0 0 80px;
-	height: 80px;
+	max-height: 80px !important;
+	height: 100% !important;
+	width: 100%;
 	margin-right: 30px;
+}
+.user-comment-img {
+	height: 80px;
+	width: 80px;
+	margin: auto 1rem auto 0;
 }
 .products-review-area .review-area .review-list .review .review-info {
 	margin-top: -7px;
@@ -6508,6 +6565,18 @@ ul.ratings {
 .releted-products-slider .product-item {
 	margin-left: 15px;
 	margin-right: 15px;
+}
+
+.product-item-img-wrapper {
+	height: 250px;
+	width: 100%;
+}
+.product-item-img-wrapper > span {
+	width: 100% !important;
+	height: 250px !important;
+}
+.product-item-img-wrapper > span > img {
+	object-fit: cover;
 }
 /*---=========================
     End Shop css 
@@ -8176,4 +8245,12 @@ textarea.form_control {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.img-popup > span {
+	width: 100% !important;
+	min-height: 400px;
+}
+
+.img-popup > span > img {
+	object-fit: cover;
 }
