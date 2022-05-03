@@ -8249,7 +8249,12 @@ textarea.form_control {
 	cursor: pointer;
 }
 
-.header-right-nav > ul > .user-icon > a > .icon {
+.header-right-nav > ul > .user-icon > p > i,
+.header-right-nav > ul > .user-icon > p > .icon {
+	cursor: pointer;
+}
+
+.header-right-nav > ul > .user-icon > p > .icon {
 	margin-left: 1rem;
 }
 

@@ -1,12 +1,24 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import SearchModal from '../../components/SearchModal';
 import MobileHeader from '../MobileHeader';
 import MainMenu from './MainMenu';
+import { userService } from '../../../services';
 
 const Header1 = () => {
 	const [showSearchModal, setShowSearchModal] = useState(false);
+	const [user, setUser] = useState(null);
+
+	useEffect(() => {
+		const subscription = userService.user.subscribe((x) => setUser(x));
+		return () => subscription.unsubscribe();
+	}, []);
+
+	function logout() {
+		userService.logout();
+	}
+
 	return (
 		<Fragment>
 			<SearchModal
@@ -86,7 +98,7 @@ const Header1 = () => {
 								<Link href='/' className='brand-logo'>
 									<Image
 										width='100%'
-										height='100%'
+										height='50px'
 										src='/assets/images/ph_logos/power-house-fitness-logo.svg'
 										alt='Site Logo'
 									/>
@@ -122,14 +134,30 @@ const Header1 = () => {
 							</div>
 							<div className='header-right-nav'>
 								<ul>
-									{/* <li className='user-icon'>
-										<a href='#'>
-											<i className='fas fa-user' />
-											<span className='icon'>
-												<span>Login/ Sign up</span>
-											</span>
-										</a>
-									</li> */}
+									{!user ? (
+										<li className='user-icon'>
+											<a href='/account/login'>
+												<i className='fas fa-user' />
+												<span className='icon'>
+													<span>Login/ Sign up</span>
+												</span>
+											</a>
+										</li>
+									) : (
+										<li className='user-icon'>
+											<p>
+												<i
+													className='fas fa-user'
+													data-toggle='tooltip'
+													data-placement='top'
+													title={`Welcome Back, ${user.firstName}`}
+												/>
+												<span className='icon' onClick={logout}>
+													<span>Logout</span>
+												</span>
+											</p>
+										</li>
+									)}
 									{/* <li className='lang-dropdown'>
 										<select className='wide'>
 											<option value={1}>English</option>

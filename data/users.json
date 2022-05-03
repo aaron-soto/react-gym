@@ -1,0 +1,20 @@
+[
+    {
+        "firstName": "Aaron",
+        "lastName": "Soto",
+        "username": "Sotobaggins1",
+        "hash": "$2a$10$IjOPVwFNYnrQY.6Dfvt0wuGt66jzSFqojzKb2r6mBWy3VOMxngb62",
+        "id": 1,
+        "dateCreated": "2022-05-03T19:34:29.758Z",
+        "dateUpdated": "2022-05-03T19:34:29.758Z"
+    },
+    {
+        "firstName": "Johnny",
+        "lastName": "Bravo",
+        "username": "JBravo20",
+        "hash": "$2a$10$/T9ekmTLVsAvFFg4PnZyj.cthYA2ljIjaaSCqxZhXLBvurevydCxG",
+        "id": 2,
+        "dateCreated": "2022-05-03T19:34:46.896Z",
+        "dateUpdated": "2022-05-03T19:34:46.896Z"
+    }
+]
