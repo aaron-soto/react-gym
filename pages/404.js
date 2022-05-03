@@ -42,7 +42,7 @@ const E404 = () => {
 									className='mb-50 wow fadeInUp'
 									alt=''
 								/> */}
-								<h2 className=' wow fadeInUp'>OPPS! This Page is Not Found</h2>
+								<h2 className=' wow fadeInUp'>OOPS! This Page is Not Found</h2>
 								<p>
 									This page does not exist or you typed something wrong. Please
 									try again or go back to the homepage
