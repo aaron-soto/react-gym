@@ -1677,7 +1677,7 @@ button {
 .breadcrumbs-wrapper {
 	position: relative;
 	z-index: 1;
-	padding: 165px 0 170px;
+	padding: 90px 0;
 }
 .breadcrumbs-wrapper:after {
 	position: absolute;

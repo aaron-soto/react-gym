@@ -67,9 +67,10 @@ const Contact = () => {
 						<div className='col-lg-4'>
 							<div className='information-cta mb-50 wow fadeInRight'>
 								<div className='information-box mb-25'>
-									<h3>Working Hour</h3>
+									<h3>Working Hours</h3>
 									<h5>Mon - Fri : 5am - 9pm</h5>
-									<h5 className='st-close'>Sat & Sun: 7am - 9pm</h5>
+									{/* <h5 className='st-close'>Sat & Sun: 7am - 9pm</h5> */}
+									<h5>Sat & Sun: 7am - 9pm</h5>
 								</div>
 								<div className='information-box mb-25'>
 									<h3>Any Other questions ?</h3>
