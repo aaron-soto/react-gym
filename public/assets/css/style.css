@@ -8249,6 +8249,18 @@ textarea.form_control {
 	cursor: pointer;
 }
 
+.user-icon-mobile {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+	width: 100%;
+}
+
+.user-icon-mobile > i {
+	margin: 0 1rem;
+}
+
 .header-right-nav > ul > .user-icon > p > i,
 .header-right-nav > ul > .user-icon > p > .icon {
 	cursor: pointer;
