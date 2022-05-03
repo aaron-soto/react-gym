@@ -71,7 +71,7 @@ function Index() {
 						))}
 					{!users && (
 						<tr>
-							<td colSpan='4'>'Loading'</td>
+							<td colSpan='4'>Loading</td>
 						</tr>
 					)}
 					{users && !users.length && (
