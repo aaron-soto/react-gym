@@ -61,44 +61,44 @@ const ProductDetails = () => {
 									<div className='color-filter-wrap'>
 										<h5>Color</h5>
 										<div className='single-color black'>
-											<input type='radio' id='cblack' name='radio' />
+											<input type='radio' id='cblack' name='color' />
 											<label htmlFor='cblack' />
 										</div>
 										<div className='single-color red'>
-											<input type='radio' id='cred' name='radio' />
+											<input type='radio' id='cred' name='color' />
 											<label htmlFor='cred' />
 										</div>
 										<div className='single-color gray out'>
-											<input type='radio' id='cgray' name='radio' />
+											<input type='radio' id='cgray' name='color' />
 											<label htmlFor='cgray' />
 										</div>
 										<div className='single-color blue'>
-											<input type='radio' id='cblue' name='radio' />
+											<input type='radio' id='cblue' name='color' />
 											<label htmlFor='cblue' />
 										</div>
 									</div>
 									<div className='size-filter-wrap'>
 										<h5>Size</h5>
 										<div className='product-size'>
-											<input type='radio' id='xs' name='radio' />
+											<input type='radio' id='xs' name='size' />
 											<label htmlFor='xs'>xs</label>
 										</div>
 										<div className='product-size'>
-											<input type='radio' id='sm' name='radio' />
+											<input type='radio' id='sm' name='size' />
 											<label htmlFor='sm'>sm</label>
 										</div>
 										<div className='product-size'>
-											<input type='radio' id='med' name='radio' />
+											<input type='radio' id='med' name='size' />
 											<label htmlFor='med'>md</label>
 										</div>
 										<div className='product-size'>
-											<input type='radio' id='lg' name='radio' />
+											<input type='radio' id='lg' name='size' />
 											<label htmlFor='lg' className='out'>
 												lg
 											</label>
 										</div>
 										<div className='product-size'>
-											<input type='radio' id='xl' name='radio' />
+											<input type='radio' id='xl' name='size' />
 											<label htmlFor='xl'>xl</label>
 										</div>
 									</div>

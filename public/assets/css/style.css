@@ -6356,7 +6356,7 @@ ul.ratings {
 	.single-color
 	input:checked
 	+ label:after {
-	border-color: var(--blue-light);
+	border-color: var(--red-dark);
 }
 .product-details-wrapper
 	.product-info
