@@ -68,6 +68,14 @@ const ProductDetails = () => {
 											<input type='radio' id='cred' name='radio' />
 											<label htmlFor='cred' />
 										</div>
+										<div className='single-color gray out'>
+											<input type='radio' id='cgray' name='radio' />
+											<label htmlFor='cgray' />
+										</div>
+										<div className='single-color blue'>
+											<input type='radio' id='cblue' name='radio' />
+											<label htmlFor='cblue' />
+										</div>
 									</div>
 									<div className='size-filter-wrap'>
 										<h5>Size</h5>
