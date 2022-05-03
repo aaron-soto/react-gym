@@ -52,7 +52,7 @@ export const Classes = () => (
 export const Features = () => (
 	<Fragment>
 		<li>
-			<Link href='/yoga'>Tanning</Link>
+			<Link href='/tanning'>Tanning</Link>
 		</li>
 		<li>
 			<Link href='/powerfit'>Personal Coaching</Link>

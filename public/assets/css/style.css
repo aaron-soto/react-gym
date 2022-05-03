@@ -3207,7 +3207,7 @@ button {
 	height: 85px;
 	border-radius: 50%;
 	background-color: #fff;
-	color: var(--purple-blue);
+	color: var(--red-dark);
 }
 
 /* Fancy Block Eleven */
@@ -4684,7 +4684,7 @@ ul.check-list.list-circle-bg li:before {
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
-	background-color: var(--blue-light);
+	background-color: var(--red-dark);
 	color: #fff;
 	margin-bottom: 20px;
 }
@@ -4692,7 +4692,7 @@ ul.check-list.list-circle-bg li:before {
 	position: absolute;
 	top: -15px;
 	right: 0;
-	background-color: var(--purple-blue);
+	background-color: var(--black-dark);
 	width: 30px;
 	height: 30px;
 	text-align: center;
@@ -6776,7 +6776,7 @@ ul.ratings {
 	height: 80px;
 	background-color: #fff;
 	border-radius: 50%;
-	color: var(--blue-light);
+	color: var(--red-dark);
 }
 .blog-standard-style .blog-post-item.blog-post-with-content {
 	background-color: #f7f8f9;
@@ -7384,7 +7384,7 @@ textarea.form_control {
 	color: #fff;
 }
 .contact-information-style-one .information-cta .information-box h5.st-close {
-	color: #ffb400;
+	color: var(--red-dark);
 	margin-top: 5px;
 }
 .contact-information-style-one .information-cta .information-box p {
@@ -8152,4 +8152,12 @@ textarea.form_control {
 	width: 100%;
 	margin: 0 1rem;
 	max-width: 600px;
+}
+
+.class-table > tbody > tr:hover {
+	background-color: #f1f1f1;
+}
+.class-table > tbody > tr > .class-cell:hover:not(.empty) {
+	background-color: #f1c7c8;
+	cursor: pointer;
 }

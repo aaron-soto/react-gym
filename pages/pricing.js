@@ -24,10 +24,10 @@ const Pricing = () => {
 						<div className='col-lg-6'>
 							<div className='section-title section-title-white text-center mb-65 wow fadeInUp'>
 								<span className='sub-title sub-title-bg red-dark-bg'>
-									Awesome pricing plan
+									Choose your plan
 								</span>
 								<h2 className='text-underline'>
-									we provide an smart pricing package for it solutions
+									We have plans for all lifestyles
 								</h2>
 							</div>
 						</div>
@@ -52,16 +52,16 @@ const Pricing = () => {
 								</div>
 								<div className='pricing-body'>
 									<p>
-										Take a trivial example which of us ever undertakes laborious
-										physical exercise On the other hand
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Voluptatem dignissimos sequi saepe aliquid.
 									</p>
 									<ul className='list'>
-										<li className='check'>30 Days Trial Features</li>
-										<li className='check'>Synced To Cloud Database</li>
-										<li className='check'>Easy Website Builder</li>
-										<li className='uncheck'>10 Hours Of Support</li>
-										<li className='uncheck'>Social Media Integration</li>
-										<li className='uncheck'>Unlimited Features</li>
+										<li className='check'>Lorem ipsum dolor sit.</li>
+										<li className='check'>Lorem ipsum dolor sit amet.</li>
+										<li className='check'>Lorem, ipsum dolor.</li>
+										<li className='uncheck'>Lorem ipsum dolor sit.</li>
+										<li className='uncheck'>Lorem, ipsum dolor.</li>
+										<li className='uncheck'>Lorem, ipsum.</li>
 									</ul>
 									<a href='#' className='main-btn'>
 										Choose this pricing
@@ -88,16 +88,16 @@ const Pricing = () => {
 								</div>
 								<div className='pricing-body'>
 									<p>
-										Take a trivial example which of us ever undertakes laborious
-										physical exercise On the other hand
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Voluptatem dignissimos sequi saepe aliquid.
 									</p>
 									<ul className='list'>
-										<li className='check'>30 Days Trial Features</li>
-										<li className='check'>Synced To Cloud Database</li>
-										<li className='check'>Easy Website Builder</li>
-										<li className='check'>10 Hours Of Support</li>
-										<li className='check'>Social Media Integration</li>
-										<li className='check'>Unlimited Features</li>
+										<li className='check'>Lorem ipsum dolor sit.</li>
+										<li className='check'>Lorem ipsum dolor sit amet.</li>
+										<li className='check'>Lorem, ipsum dolor.</li>
+										<li className='check'>Lorem ipsum dolor sit.</li>
+										<li className='check'>Lorem, ipsum dolor.</li>
+										<li className='check'>Lorem, ipsum.</li>
 									</ul>
 									<a href='#' className='main-btn'>
 										Choose this pricing
@@ -124,16 +124,16 @@ const Pricing = () => {
 								</div>
 								<div className='pricing-body'>
 									<p>
-										Take a trivial example which of us ever undertakes laborious
-										physical exercise On the other hand
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Voluptatem dignissimos sequi saepe aliquid.
 									</p>
 									<ul className='list'>
-										<li className='check'>30 Days Trial Features</li>
-										<li className='check'>Synced To Cloud Database</li>
-										<li className='check'>Easy Website Builder</li>
-										<li className='check'>10 Hours Of Support</li>
-										<li className='check'>Social Media Integration</li>
-										<li className='check'>Unlimited Features</li>
+										<li className='check'>Lorem ipsum dolor sit.</li>
+										<li className='check'>Lorem ipsum dolor sit amet.</li>
+										<li className='check'>Lorem, ipsum dolor.</li>
+										<li className='check'>Lorem ipsum dolor sit.</li>
+										<li className='check'>Lorem, ipsum dolor.</li>
+										<li className='check'>Lorem, ipsum.</li>
 									</ul>
 									<a href='#' className='main-btn'>
 										Choose this pricing

@@ -2,7 +2,9 @@ import Link from 'next/link';
 import React from 'react';
 import { Nav, Tab } from 'react-bootstrap';
 import Slider from 'react-slick';
+import ClassTable from '../src/components/ClassTable';
 import Counter from '../src/components/Counter';
+import Leaderboard from '../src/components/LeaderBoard';
 import Newsletter from '../src/components/Newsletter';
 import Footer from '../src/layouts/footers/Footer';
 import Header1 from '../src/layouts/headers/Header1';
@@ -65,9 +67,55 @@ const Index = () => {
 				</Slider>
 			</section>
 			{/*====== End Hero Section ======*/}
+			{/*====== Start Video Section ======*/}
+			<section className='fancy-text-block fancy-text-block-ten pt-130 pb-80'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-lg-5'>
+							<div className='text-wrapper mb-50'>
+								<div className='section-title mb-25'>
+									<span className='sub-title sub-title-bg red-dark-bg wow fadeInUp'>
+										Train harder together
+									</span>
+									<h2 className='text-underline'>
+										Our Powerhouses Work Out and keep each other motivated!
+									</h2>
+								</div>
+								<p>
+									Still not sure if powerhouse is right for you? Check out this
+									video of some of our powerhouses working out together and
+									making each other better than they were before!
+								</p>
+								<Link href='/pricing'>
+									<a className='main-btn btn-red wow fadeInUp'>
+										Get started with us
+									</a>
+								</Link>
+							</div>
+						</div>
+						<div className='col-lg-7'>
+							<div className='img-holder mb-50 wow fadeInRight'>
+								<img
+									src='assets/images/widget/alycia-powerhouse.jpg'
+									alt='Image'
+								/>
+								<div className='play-content'>
+									<a
+										href='https://www.youtube.com/watch?v=eaRQF-7hhmo'
+										className='video-popup'
+									>
+										<i className='fas fa-play' />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			{/*====== End Video Section ======*/}
 
 			{/*====== Start Schedule Section ======*/}
-			<div className='section pt-130 pb-150'>
+			<div className='section pt-50 pb-150'>
 				<div className='container'>
 					<div className='row justify-content-center'>
 						<div className='col-lg-6'>
@@ -82,125 +130,7 @@ const Index = () => {
 						</div>
 					</div>
 					<div className='row table-responsive-md mx-0'>
-						<table className='table table-bordered bg-light'>
-							<thead>
-								<tr>
-									<th className='text-center align-middle' scope='col'></th>
-									<th className='text-center align-middle' scope='col'>
-										Monday
-									</th>
-									<th className='text-center align-middle' scope='col'>
-										Tuesday
-									</th>
-									<th className='text-center align-middle' scope='col'>
-										Wednesday
-									</th>
-									<th className='text-center align-middle' scope='col'>
-										Thursday
-									</th>
-									<th className='text-center align-middle' scope='col'>
-										Friday
-									</th>
-									<th className='text-center align-middle' scope='col'>
-										Saturday
-									</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<th className='text-center align-middle' scope='row'>
-										5:00 AM
-									</th>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>-</td>
-								</tr>
-								<tr>
-									<th className='text-center align-middle' scope='row'>
-										7:00 AM
-									</th>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>-</td>
-								</tr>
-								<tr>
-									<th className='text-center align-middle' scope='row'>
-										7:45 AM
-									</th>
-									<td className='text-center align-middle'>-</td>
-									<td className='text-center align-middle'>-</td>
-									<td className='text-center align-middle'>-</td>
-									<td className='text-center align-middle'>-</td>
-									<td className='text-center align-middle'>-</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Yoga</p>
-										<p className='text-muted'>Melodee</p>
-									</td>
-								</tr>
-								<tr>
-									<th className='text-center align-middle' scope='row'>
-										5:00 PM
-									</th>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>
-										<p className='font-weight-bold'>Powerfit</p>
-										<p className='text-muted'>Nicole</p>
-									</td>
-									<td className='text-center align-middle'>-</td>
-								</tr>
-							</tbody>
-						</table>
+						<ClassTable />
 					</div>
 				</div>
 			</div>
@@ -222,70 +152,7 @@ const Index = () => {
 						</div>
 					</div>
 					<div className='row justify-content-center'>
-						<ol className='list-group list-group-numbered leaderboard-list'>
-							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='w-25 d-flex'>
-									<h3>Place</h3>
-								</div>
-								<div className='ms mr-auto d-flex'>
-									<h3>Name</h3>
-								</div>
-								<h3 className=''>lbs Lost</h3>
-							</li>
-							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='d-flex w-25'>
-									<h3 className=''>1.</h3>
-								</div>
-								<div className='ms mr-auto d-flex'>
-									<p className='fw-bold '>Johnny Bravo</p>
-								</div>
-								<div className=''>86.6 lbs</div>
-							</li>
-							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className=' d-flex w-25'>
-									<h3>2.</h3>
-								</div>
-								<div className='ms mr-auto d-flex'>
-									<p className='fw-bold'>Jane Doe</p>
-								</div>
-								<div className=''>64.4 lbs</div>
-							</li>
-							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='d-flex w-25'>
-									<h3>3.</h3>
-								</div>
-								<div className='ms mr-auto d-flex'>
-									<p className='fw-bold'>John Doe</p>
-								</div>
-								<div className=''>35.8 lbs</div>
-							</li>
-							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='d-flex w-25'>
-									<h3>4.</h3>
-								</div>
-								<div className='ms mr-auto d-flex'>
-									<p className='fw-bold'>Patrick Starr</p>
-								</div>
-								<div className=''>14.4 lbs</div>
-							</li>
-							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<div className='d-flex w-25'>
-									<h3>5.</h3>
-								</div>
-								<div className='ms mr-auto d-flex'>
-									<p className='fw-bold'>Timmy Turner</p>
-								</div>
-								<div className=''>10.2 lbs</div>
-							</li>
-							<li className='list-group-item d-flex justify-content-between align-items-start'>
-								<a
-									className='text-center mx-auto w-100 h-100 text-danger'
-									href='#'
-								>
-									View full leaderboard
-								</a>
-							</li>
-						</ol>
+						<Leaderboard />
 					</div>
 				</div>
 			</section>
