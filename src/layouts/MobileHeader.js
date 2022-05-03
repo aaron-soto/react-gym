@@ -95,6 +95,9 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 									<Link href='/pricing'>Membership</Link>
 								</li>
 								<li className='menu-item'>
+									<Link href='/shop'>Shop</Link>
+								</li>
+								<li className='menu-item'>
 									<Link href='/contact'>Contact</Link>
 								</li>
 								<li className='search-item'>
