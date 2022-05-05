@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import { Nav, Tab } from 'react-bootstrap';
 import PageBanner from '../src/components/PageBanner';
 import Layout from '../src/layouts/Layout';
