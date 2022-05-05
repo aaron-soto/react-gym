@@ -913,10 +913,10 @@ const Index = () => {
 							<div className='col-lg-6'>
 								<div className='section-title mb-55 wow fadeInLeft'>
 									<span className='sub-title red-dark text-underline'>
-										Awesome pricing plan
+										Awesome pricing plans
 									</span>
 									<h2 className='text-uppercase'>
-										we provide an smart pricing package for it solutions
+										We provide plans to fit everyones lifestyle
 									</h2>
 								</div>
 							</div>
