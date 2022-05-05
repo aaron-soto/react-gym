@@ -83,7 +83,8 @@ const Shop = () => {
 										<li className='product-item'>
 											<div className='product-thumb'>
 												<img
-													src='assets/images/products/sm-thumb-1.jpg'
+													src='https://www.powerhousefitnessaz.com/uploads/1/2/9/6/129669423/s252311997741826771_p3_i1_w3024.jpeg?width=640'
+													// src='assets/images/products/sm-thumb-3.jpg'
 													alt='product image'
 												/>
 											</div>
@@ -101,7 +102,8 @@ const Shop = () => {
 										<li className='product-item'>
 											<div className='product-thumb'>
 												<img
-													src='assets/images/products/sm-thumb-2.jpg'
+													src='https://www.powerhousefitnessaz.com/uploads/1/2/9/6/129669423/s252311997741826771_p3_i1_w3024.jpeg?width=640'
+													// src='assets/images/products/sm-thumb-3.jpg'
 													alt='product image'
 												/>
 											</div>
@@ -119,7 +121,8 @@ const Shop = () => {
 										<li className='product-item'>
 											<div className='product-thumb'>
 												<img
-													src='assets/images/products/sm-thumb-3.jpg'
+													src='https://www.powerhousefitnessaz.com/uploads/1/2/9/6/129669423/s252311997741826771_p3_i1_w3024.jpeg?width=640'
+													// src='assets/images/products/sm-thumb-3.jpg'
 													alt='product image'
 												/>
 											</div>
@@ -159,7 +162,8 @@ const Shop = () => {
 										<div className='product-item mb-30 wow fadeInUp'>
 											<div className='product-thumb'>
 												<img
-													src='assets/images/products/product-1.jpg'
+													src='https://www.powerhousefitnessaz.com/uploads/1/2/9/6/129669423/s252311997741826771_p1_i2_w1200.jpeg?width=640'
+													// src='assets/images/products/product-1.jpg'
 													alt='product image'
 												/>
 												<div className='product-overlay d-flex align-items-end justify-content-center'>
@@ -210,7 +214,8 @@ const Shop = () => {
 										<div className='product-item mb-30 wow fadeInUp'>
 											<div className='product-thumb'>
 												<img
-													src='assets/images/products/product-2.jpg'
+													src='https://www.powerhousefitnessaz.com/uploads/1/2/9/6/129669423/s252311997741826771_p2_i2_w1200.jpeg?width=640'
+													// src='assets/images/products/product-2.jpg'
 													alt='product image'
 												/>
 												<div className='product-overlay d-flex align-items-end justify-content-center'>
@@ -261,7 +266,8 @@ const Shop = () => {
 										<div className='product-item mb-30 wow fadeInUp'>
 											<div className='product-thumb'>
 												<img
-													src='assets/images/products/product-3.jpg'
+													src='https://www.powerhousefitnessaz.com/uploads/1/2/9/6/129669423/s252311997741826771_p3_i1_w3024.jpeg?width=640'
+													// src='assets/images/products/product-3.jpg'
 													alt='product image'
 												/>
 												<div className='product-overlay d-flex align-items-end justify-content-center'>

@@ -63,9 +63,9 @@ const Pricing = () => {
 										<li className='uncheck'>Lorem, ipsum dolor.</li>
 										<li className='uncheck'>Lorem, ipsum.</li>
 									</ul>
-									<a href='#' className='main-btn'>
-										Choose this pricing
-									</a>
+									<Link href='/pricing'>
+										<a className='main-btn'>Choose this pricing</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -99,9 +99,9 @@ const Pricing = () => {
 										<li className='check'>Lorem, ipsum dolor.</li>
 										<li className='check'>Lorem, ipsum.</li>
 									</ul>
-									<a href='#' className='main-btn'>
-										Choose this pricing
-									</a>
+									<Link href='/pricing'>
+										<a className='main-btn'>Choose this pricing</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -135,9 +135,9 @@ const Pricing = () => {
 										<li className='check'>Lorem, ipsum dolor.</li>
 										<li className='check'>Lorem, ipsum.</li>
 									</ul>
-									<a href='#' className='main-btn'>
-										Choose this pricing
-									</a>
+									<Link href='/pricing'>
+										<a className='main-btn'>Choose this pricing</a>
+									</Link>
 								</div>
 							</div>
 						</div>

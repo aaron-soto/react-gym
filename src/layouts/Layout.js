@@ -1,6 +1,7 @@
 import niceSelect from 'niceselectwithsabuj';
 import React, { Fragment, useEffect } from 'react';
 import BackToTop from '../components/BackToTop';
+import { CookiesConsent } from '../components/CookiesConsent';
 import ImageView from '../components/ImageView';
 import Newsletter from '../components/Newsletter';
 import VideoPopup from '../components/VideoPopup';
@@ -23,6 +24,7 @@ const Layout = ({ children, noHeader, noFooter }) => {
 
 	return (
 		<Fragment>
+			{/* <CookiesConsent /> */}
 			<ImageView />
 			<VideoPopup />
 			{!noHeader && <Header1 />}

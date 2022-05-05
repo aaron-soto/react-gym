@@ -957,7 +957,10 @@ const Index = () => {
 							>
 								<div className='row'>
 									<div className='col-lg-4 col-md-6 col-sm-12'>
-										<div className='pricing-item mb-60 wow fadeInUp'>
+										<div
+											className='pricing-item mb-40 wow fadeInUp'
+											data-wow-delay='.2s'
+										>
 											<div className='pricing-title-price'>
 												<div className='pricing-title'>
 													<h3 className='title'>Basic Plan</h3>
@@ -972,16 +975,16 @@ const Index = () => {
 											</div>
 											<div className='pricing-body'>
 												<p>
-													Take a trivial example which of us ever undertakes
-													laborious physical exercise On the other hand
+													Lorem ipsum dolor, sit amet consectetur adipisicing
+													elit. Voluptatem dignissimos sequi saepe aliquid.
 												</p>
 												<ul className='list'>
-													<li className='check'>30 Days Trial Features</li>
-													<li className='check'>Synced To Cloud Database</li>
-													<li className='check'>Easy Website Builder</li>
-													<li className='uncheck'>10 Hours Of Support</li>
-													<li className='uncheck'>Social Media Integration</li>
-													<li className='uncheck'>Unlimited Features</li>
+													<li className='check'>Lorem ipsum dolor sit.</li>
+													<li className='check'>Lorem ipsum dolor sit amet.</li>
+													<li className='check'>Lorem, ipsum dolor.</li>
+													<li className='uncheck'>Lorem ipsum dolor sit.</li>
+													<li className='uncheck'>Lorem, ipsum dolor.</li>
+													<li className='uncheck'>Lorem, ipsum.</li>
 												</ul>
 												<Link href='/pricing'>
 													<a className='main-btn'>Choose this pricing</a>
@@ -990,7 +993,10 @@ const Index = () => {
 										</div>
 									</div>
 									<div className='col-lg-4 col-md-6 col-sm-12'>
-										<div className='pricing-item mb-60 wow fadeInUp'>
+										<div
+											className='pricing-item mb-40 wow fadeInUp'
+											data-wow-delay='.3s'
+										>
 											<div className='pricing-title-price'>
 												<div className='pricing-title'>
 													<h3 className='title'>Regular Plan</h3>
@@ -1005,16 +1011,16 @@ const Index = () => {
 											</div>
 											<div className='pricing-body'>
 												<p>
-													Take a trivial example which of us ever undertakes
-													laborious physical exercise On the other hand
+													Lorem ipsum dolor, sit amet consectetur adipisicing
+													elit. Voluptatem dignissimos sequi saepe aliquid.
 												</p>
 												<ul className='list'>
-													<li className='check'>30 Days Trial Features</li>
-													<li className='check'>Synced To Cloud Database</li>
-													<li className='check'>Easy Website Builder</li>
-													<li className='check'>10 Hours Of Support</li>
-													<li className='check'>Social Media Integration</li>
-													<li className='check'>Unlimited Features</li>
+													<li className='check'>Lorem ipsum dolor sit.</li>
+													<li className='check'>Lorem ipsum dolor sit amet.</li>
+													<li className='check'>Lorem, ipsum dolor.</li>
+													<li className='check'>Lorem ipsum dolor sit.</li>
+													<li className='check'>Lorem, ipsum dolor.</li>
+													<li className='check'>Lorem, ipsum.</li>
 												</ul>
 												<Link href='/pricing'>
 													<a className='main-btn'>Choose this pricing</a>
@@ -1023,7 +1029,10 @@ const Index = () => {
 										</div>
 									</div>
 									<div className='col-lg-4 col-md-6 col-sm-12'>
-										<div className='pricing-item mb-60 wow fadeInUp'>
+										<div
+											className='pricing-item mb-40 wow fadeInUp'
+											data-wow-delay='.4s'
+										>
 											<div className='pricing-title-price'>
 												<div className='pricing-title'>
 													<h3 className='title'>Silver Plan</h3>
@@ -1038,16 +1047,16 @@ const Index = () => {
 											</div>
 											<div className='pricing-body'>
 												<p>
-													Take a trivial example which of us ever undertakes
-													laborious physical exercise On the other hand
+													Lorem ipsum dolor, sit amet consectetur adipisicing
+													elit. Voluptatem dignissimos sequi saepe aliquid.
 												</p>
 												<ul className='list'>
-													<li className='check'>30 Days Trial Features</li>
-													<li className='check'>Synced To Cloud Database</li>
-													<li className='check'>Easy Website Builder</li>
-													<li className='check'>10 Hours Of Support</li>
-													<li className='check'>Social Media Integration</li>
-													<li className='check'>Unlimited Features</li>
+													<li className='check'>Lorem ipsum dolor sit.</li>
+													<li className='check'>Lorem ipsum dolor sit amet.</li>
+													<li className='check'>Lorem, ipsum dolor.</li>
+													<li className='check'>Lorem ipsum dolor sit.</li>
+													<li className='check'>Lorem, ipsum dolor.</li>
+													<li className='check'>Lorem, ipsum.</li>
 												</ul>
 												<Link href='/pricing'>
 													<a className='main-btn'>Choose this pricing</a>

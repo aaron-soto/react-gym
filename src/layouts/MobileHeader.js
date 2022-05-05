@@ -10,25 +10,14 @@ import {
 	Classes,
 	Features,
 } from './headers/Menus';
-import { userService } from '../../services';
 
 const MobileHeader = ({ logo, className, headerClass }) => {
-	const [user, setUser] = useState(null);
 	const [toggle, setToggle] = useState(false);
 	const [activeMenu, setActiveMenu] = useState('');
 	const activeMenuSet = (value) =>
 			setActiveMenu(activeMenu === value ? '' : value),
 		activeLi = (value) =>
 			value === activeMenu ? { display: 'block' } : { display: 'none' };
-
-	useEffect(() => {
-		const subscription = userService.user.subscribe((x) => setUser(x));
-		return () => subscription.unsubscribe();
-	}, []);
-
-	function logout() {
-		userService.logout();
-	}
 
 	return (
 		<div
@@ -117,28 +106,14 @@ const MobileHeader = ({ logo, className, headerClass }) => {
 										<i className='fas fa-search' />
 									</a>
 								</li>
-								{!user ? (
-									<li className='user-icon'>
-										<a href='/account/login'>
-											<i className='fas fa-user' />
-											<span className='icon'>
-												<span>Login/ Sign up</span>
-											</span>
-										</a>
-									</li>
-								) : (
-									<li className='user-icon-mobile'>
-										<i
-											className='fas fa-user'
-											data-toggle='tooltip'
-											data-placement='top'
-											title={`Welcome Back, ${user.firstName}`}
-										/>
-										<span className='icon' onClick={logout}>
-											<span>Logout</span>
+								<li className='user-icon'>
+									<a href='/account/login'>
+										<i className='fas fa-user' />
+										<span className='icon'>
+											<span>Login/ Sign up</span>
 										</span>
-									</li>
-								)}
+									</a>
+								</li>
 							</ul>
 							<div
 								className='menu-item nav-button text-light red-dark-bg trial-btn'

@@ -6082,6 +6082,16 @@ ul.ratings {
 	max-width: 70px;
 	height: 70px;
 	margin-right: 20px;
+	max-height: 70px;
+}
+.product-sidebar-widget
+	.widget.recent-product-widget
+	.product-item
+	.product-thumb
+	img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 .product-sidebar-widget
 	.widget.recent-product-widget
@@ -6160,6 +6170,8 @@ ul.ratings {
 .products-style-one .product-item .product-thumb {
 	position: relative;
 	overflow: hidden;
+	max-height: 280px;
+	object-fit: cover;
 }
 .products-style-one .product-item .product-thumb img {
 	width: 100%;
@@ -8288,4 +8300,20 @@ textarea.form_control {
 
 .img-popup > span > img {
 	object-fit: cover;
+}
+
+.button-fixed-cookies {
+	bottom: 1rem;
+	position: fixed;
+	right: 0;
+	border-radius: 4px;
+	z-index: 10000;
+}
+.bg-custom-cookies {
+	border-radius: 10px;
+	background-color: rgba(25, 25, 25, 0.15);
+	backdrop-filter: blur(10px);
+}
+.bg-custom-cookies button {
+	background-color: var(--black-dark);
 }
