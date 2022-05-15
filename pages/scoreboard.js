@@ -11,17 +11,17 @@ const ScoreBoard = () => {
 
 	return (
 		<div className='leaderboard-wrapper'>
-			<section class='container'>
+			<section className='container'>
 				<div className='scoreboard mx-auto'>
 					<h2 className='mx-auto text-center py-3 text-light'>Lbs Lost</h2>
 					<div className='class-details  mb-4'>
 						<p className='text-center'>Total Weight Lost: {weightSum} lbs</p>
 						<p className='text-center'>Average Weight Lost: {average} lbs</p>
 					</div>
-					<div class='leaderboard-list'>
+					<div className='leaderboard-list'>
 						{sortedData.map((person, idx) => {
 							return (
-								<div class={`leaderboard-item`} key={idx}>
+								<div className={`leaderboard-item`} key={idx}>
 									<div
 										className={idx < 3 ? `shimmer-overlay shimmer-${idx}` : ''}
 									></div>
