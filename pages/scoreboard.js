@@ -13,7 +13,9 @@ const ScoreBoard = () => {
 		<div className='leaderboard-wrapper'>
 			<section className='container'>
 				<div className='scoreboard mx-auto'>
-					<h2 className='mx-auto text-center py-3 text-light'>Lbs Lost</h2>
+					<h2 className='mx-auto text-center py-3 text-light'>
+						Lbs Lost Leaders
+					</h2>
 					<div className='class-details  mb-4'>
 						<p className='text-center'>Total Weight Lost: {weightSum} lbs</p>
 						<p className='text-center'>Average Weight Lost: {average} lbs</p>

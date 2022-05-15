@@ -8320,6 +8320,11 @@ textarea.form_control {
 .bg-custom-cookies button {
 	background-color: var(--black-dark);
 }
+
+/*---=========================
+    Start Leaderboard css 
+=========================---*/
+
 .leaderboard-wrapper {
 	width: 100%;
 	height: auto;
@@ -8528,3 +8533,7 @@ textarea.form_control {
 		left: 468px;
 	}
 }
+
+/*---=========================
+    End Leaderboard css 
+=========================---*/
