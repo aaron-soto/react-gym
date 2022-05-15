@@ -55,6 +55,9 @@ export const Features = () => (
 			<Link href='/tanning'>Tanning</Link>
 		</li>
 		<li>
+			<Link href='/powerfit'>PowerFit</Link>
+		</li>
+		<li>
 			<Link href='/powerfit'>Personal Coaching</Link>
 		</li>
 		<li>

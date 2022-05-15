@@ -34,92 +34,55 @@ const Pricing = () => {
 						</div>
 					</div>
 					<div className='row'>
-						<div className='col-lg-4 col-md-6 col-sm-12'>
-							<div
-								className='pricing-item mb-40 wow fadeInUp'
-								data-wow-delay='.2s'
-							>
-								<div className='pricing-title-price'>
-									<div className='pricing-title'>
-										<h3 className='title'>Basic Plan</h3>
-										<span className='discount'>25% Save Package</span>
-									</div>
-									<div className='pricing-price'>
-										<h3 className='price'>
-											<span className='currency'>$</span>19.99
-											<span className='sm-text'>for Monthly</span>
-										</h3>
-									</div>
-								</div>
-								<div className='pricing-body'>
-									<p>
-										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-										Voluptatem dignissimos sequi saepe aliquid.
-									</p>
-									<ul className='list'>
-										<li className='check'>Lorem ipsum dolor sit.</li>
-										<li className='check'>Lorem ipsum dolor sit amet.</li>
-										<li className='check'>Lorem, ipsum dolor.</li>
-										<li className='uncheck'>Lorem ipsum dolor sit.</li>
-										<li className='uncheck'>Lorem, ipsum dolor.</li>
-										<li className='uncheck'>Lorem, ipsum.</li>
-									</ul>
-									<Link href='/pricing'>
-										<a className='main-btn'>Choose this pricing</a>
-									</Link>
-								</div>
-							</div>
-						</div>
-						<div className='col-lg-4 col-md-6 col-sm-12'>
+						<div className='col-lg-4 col-md-6 col-sm-12 mx-auto'>
 							<div
 								className='pricing-item mb-40 wow fadeInUp'
 								data-wow-delay='.3s'
 							>
 								<div className='pricing-title-price'>
 									<div className='pricing-title'>
-										<h3 className='title'>Regular Plan</h3>
-										<span className='discount'>25% Save Package</span>
+										<h3 className='title'>Tanning Membership</h3>
+										<span className='discount'>On Site Tanning</span>
 									</div>
 									<div className='pricing-price'>
 										<h3 className='price'>
-											<span className='currency'>$</span>39.99
-											<span className='sm-text'>for Monthly</span>
+											<span className='currency'>$</span>49.95
+											<span className='sm-text'>/ Month</span>
 										</h3>
 									</div>
 								</div>
 								<div className='pricing-body'>
 									<p>
-										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-										Voluptatem dignissimos sequi saepe aliquid.
+										Get the summer tan year round in our professional tanning
+										bed.
 									</p>
+									<h4 className='underline'>
+										<u>Includes</u>
+									</h4>
 									<ul className='list'>
-										<li className='check'>Lorem ipsum dolor sit.</li>
-										<li className='check'>Lorem ipsum dolor sit amet.</li>
-										<li className='check'>Lorem, ipsum dolor.</li>
-										<li className='check'>Lorem ipsum dolor sit.</li>
-										<li className='check'>Lorem, ipsum dolor.</li>
-										<li className='check'>Lorem, ipsum.</li>
+										<li className='check'>X Tanning sessions a month</li>
+										<li className='check'>Full body tanning bed</li>
 									</ul>
 									<Link href='/pricing'>
-										<a className='main-btn'>Choose this pricing</a>
+										<a className='main-btn'>Choose this plan</a>
 									</Link>
 								</div>
 							</div>
 						</div>
-						<div className='col-lg-4 col-md-6 col-sm-12'>
+						<div className='col-lg-4 col-md-6 col-sm-12 mx-auto'>
 							<div
 								className='pricing-item mb-40 wow fadeInUp'
-								data-wow-delay='.4s'
+								data-wow-delay='.3s'
 							>
 								<div className='pricing-title-price'>
 									<div className='pricing-title'>
-										<h3 className='title'>Silver Plan</h3>
-										<span className='discount'>25% Save Package</span>
+										<h3 className='title'>Total Club Membership</h3>
+										<span className='discount'>Fits every Lifestyle</span>
 									</div>
 									<div className='pricing-price'>
 										<h3 className='price'>
-											<span className='currency'>$</span>99.99
-											<span className='sm-text'>for Monthly</span>
+											<span className='currency'>$</span>29.95
+											<span className='sm-text'>/ Month</span>
 										</h3>
 									</div>
 								</div>
@@ -128,19 +91,66 @@ const Pricing = () => {
 										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 										Voluptatem dignissimos sequi saepe aliquid.
 									</p>
+									<h4 className='underline'>
+										<u>Includes</u>
+									</h4>
 									<ul className='list'>
-										<li className='check'>Lorem ipsum dolor sit.</li>
-										<li className='check'>Lorem ipsum dolor sit amet.</li>
-										<li className='check'>Lorem, ipsum dolor.</li>
-										<li className='check'>Lorem ipsum dolor sit.</li>
-										<li className='check'>Lorem, ipsum dolor.</li>
-										<li className='check'>Lorem, ipsum.</li>
+										<li className='check'>All Fitness & Cardio Equipment</li>
+										<li className='check'>Unlimited Group Fitness Classes</li>
+										<li className='check'>2 Free Guest Passes A Month</li>
+										<li className='check'>2 Free Personal Training Sessions</li>
 									</ul>
+
+									<p className='mb-5'>
+										* $49.95 Enrollment Fee <br />* $49 Annual Membership fee
+									</p>
 									<Link href='/pricing'>
-										<a className='main-btn'>Choose this pricing</a>
+										<a className='main-btn'>Choose this plan</a>
 									</Link>
 								</div>
 							</div>
+						</div>
+						<div className='col-lg-4 col-md-6 col-sm-12 mx-auto'>
+							<div
+								className='pricing-item mb-40 wow fadeInUp'
+								data-wow-delay='.3s'
+							>
+								<div className='pricing-title-price'>
+									<div className='pricing-title'>
+										<h3 className='title'>PowerFit Membership</h3>
+										<span className='discount'>Group Training</span>
+									</div>
+									<div className='pricing-price'>
+										<h3 className='price'>
+											<span className='currency'>$</span>199.95
+											<span className='sm-text'>/ Month</span>
+										</h3>
+									</div>
+								</div>
+								<div className='pricing-body'>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Voluptatem dignissimos sequi saepe aliquid.
+									</p>
+									<h4 className='underline'>
+										<u>Includes</u>
+									</h4>
+									<ul className='list'>
+										<li className='check'>Group Training</li>
+										<li className='check'>5 Days a week</li>
+									</ul>
+									<Link href='/pricing'>
+										<a className='main-btn'>Choose this plan</a>
+									</Link>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className='row'>
+						<div className='col-lg-4 col-md-4 col-sm-12 mx-auto pricing-notes-card p-5'>
+							<h3>Membership Details</h3>
+							<p>$49.95 Enrollment Fee</p>
+							<p>$49 Annual Membership fee</p>
 						</div>
 					</div>
 				</div>
